@@ -4,6 +4,7 @@ WORKDIR /app
 
 # Install dependencies separately to leverage Docker layer caching
 COPY package.json package-lock.json ./
+ENV npm_config_legacy_peer_deps=true
 RUN npm ci
 
 # Copy source and build the production bundle
