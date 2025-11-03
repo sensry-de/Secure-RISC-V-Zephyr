@@ -7,7 +7,7 @@ export const valueProps = [
     {
         icon: <SecurityIcon/>,
         title: 'Privilege separation',
-        text: 'Clean M/S/U-mode design with delegated traps and strict isolation via PMP/ePMP.'
+        text: 'Clean M/S/U-mode design with delegated traps and strict isolation via PMP.'
     },
     {
         icon: <MemoryIcon/>,
